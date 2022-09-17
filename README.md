@@ -30,6 +30,6 @@ There are 2 approaches trying different dependencies.
 6. Click Connect to MetaMask
 7. Check background console and verify that `window.ethereum` is injected correctly
 
-## TODO
-- [ ] Connect to MetaMask using MV2
-- [ ] Connect to MetaMask using MV3
+## IMPORTANT
+
+To use this extension in firefox, change `FIREFOX_ID` on `patches/@metamask+providers**`.

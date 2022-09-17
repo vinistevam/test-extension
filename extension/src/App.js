@@ -1,5 +1,5 @@
 import './App.css';
-import { providerOld, providerNew } from './main';
+import { providerOld, providerNew, signPersonal } from './main';
 
 function App() {
   return (
@@ -7,21 +7,26 @@ function App() {
       <header className="App-header">
       </header>
       <div className="App-body">
+        {/* DEPRECATED */}
+        {/* <div>
+          <p>Using metamask-extension-provider</p>
+
+          <button onClick={providerOld}>
+            Connect to MM and Sign
+          </button>
+        </div> */}
 
         <div>
-          Using metamask-extension-provider
-        </div>
-        <button onClick={providerOld}>
-          Connect to MM and Sign
-        </button>
+          <p>Using @metamask/providers</p>
 
-        <div>
-          Using @metamask/providers
+          <button onClick={providerNew}>
+            Connect to MM
+          </button>
+
+          <button onClick={signPersonal}>
+            Request to sign
+          </button>
         </div>
-        <button onClick={providerNew}>
-          Connect to MM and Sign
-        </button>
-        
       </div>
     </div>
   );

@@ -1,0 +1,10 @@
+diff --git a/node_modules/@metamask/providers/dist/extension-provider/external-extension-config.json b/node_modules/@metamask/providers/dist/extension-provider/external-extension-config.json
+index 887dd69..2f24ef0 100644
+--- a/node_modules/@metamask/providers/dist/extension-provider/external-extension-config.json
++++ b/node_modules/@metamask/providers/dist/extension-provider/external-extension-config.json
+@@ -1,4 +1,4 @@
+ {
+-    "CHROME_ID": "nkbihfbeogaeaoehlefnkodbefgpgknn",
++    "CHROME_ID": "akoocoppjphomhajmnfdnidginoeggbe",
+     "FIREFOX_ID": "webextension@metamask.io"
+ }
